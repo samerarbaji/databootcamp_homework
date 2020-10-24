@@ -1,0 +1,10 @@
+Three Trends from the Data set:
+
+1: The amount of Males that play this game is 
+substantially higher than any other gender.
+
+2: The age demographic that had the highest player base
+was players aged 20-24.
+
+3: Even though males were the biggest segment of the
+demographic they spent the least on the game.
