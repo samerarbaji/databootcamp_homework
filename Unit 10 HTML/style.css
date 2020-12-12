@@ -1,14 +1,52 @@
-.navbar {
-    color: teal;
-}
 
 h1{
     color:rgb(1, 143, 124);
     font-weight:bold;
     text-indent: 30px;
+    
 }
 
 p{
     word-spacing: 10px;
+    font-size:25px;
 }
 
+h3{
+    color:rgb(1, 143, 124);
+    font-weight:bold;
+}
+
+.p1{
+    word-spacing: 0px;
+    font-size: 25px;
+}
+
+h2{
+        color: rgb(1, 143, 124);
+        font-weight:bold;
+        text-indent: 30px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+p1{
+    word-spacing: 10px;
+    font-size:25px;
+}
+
+table {
+    
+}
+
+
+
+  .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(1, 143, 124);
+    border: 1px solid rgb(1, 143, 124);
+     
+  }
