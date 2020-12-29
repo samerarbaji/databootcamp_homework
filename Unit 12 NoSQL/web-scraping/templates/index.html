@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  
+  <div class="jumbotron text-center">
+    <h1>Mission to Mars</h1>
+    <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+  </div>
+    <div class="container-fluid news no-padding" id="scraped-data">
+      <div class="row no-gutter">
+        <div class="card-body">
+          <h5 style="font-size:30px">Latest Mars News</h5>
+          <p style="font-size:17px">A Martian Roundtrip: NASA's Perseverance Rover Sample Tubes</p>
+          <p>Marvels of engineering, the rover's sample tubes must be tough enough to safely bring Red Planet samples on the long journey back to Earth in immaculate condition.</p>
+          <h6 class="card-subtitle mb-2 " id="font">{{ mars.news_title }}</h6>
+          <p class="card-text">{{ mars.summary }}</p>
+          
+        </div>
+      </div>
+      </div>
+      <div class="row no-gutter img-table">
+        <div class="col-md-6" >
+          <div class="card">
+            <div class="card-body" id="img-table">
+              <h5 style="font-size:30px">Featured Mars Image</h5>
+              <img class="card-img-bottom" src="https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA23431-1920x1200.jpg" alt="Featured Mars Image" width="800" height="500">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" >
+          <div class="card">
+            <div class="card-body" id="img-table">
+              <div class="col-md-12">
+                <p class="card-text" id="dark-font">{{ mars.weather }}</p>
+              </div>
+            </div>
+            <div class="card-body" id="img-table">
+              <div class="col-md-12">
+                <div>
+                  <h5 style="font-size:30px">Mars Facts</h5>
+                  <p><table border="1" class="dataframe">\n  <tbody>\n    <tr>\n      <td>Equatorial Diameter:</td>\n      <td>6,792 km</td>\n    </tr>\n    <tr>\n      <td>Polar Diameter:</td>\n      <td>6,752 km</td>\n    </tr>\n    <tr>\n      <td>Mass:</td>\n      <td>6.39 × 10^23 kg (0.11 Earths)</td>\n    </tr>\n    <tr>\n      <td>Moons:</td>\n      <td>2 (Phobos &amp; Deimos)</td>\n    </tr>\n    <tr>\n      <td>Orbit Distance:</td>\n      <td>227,943,824 km (1.38 AU)</td>\n    </tr>\n    <tr>\n      <td>Orbit Period:</td>\n      <td>687 days (1.9 years)</td>\n    </tr>\n    <tr>\n      <td>Surface Temperature:</td>\n      <td>-87 to -5 °C</td>\n    </tr>\n    <tr>\n      <td>First Record:</td>\n      <td>2nd millennium BC</td>\n    </tr>\n    <tr>\n      <td>Recorded By:</td>\n      <td>Egyptian astronomers</td>\n    </tr>\n  </tbody>\n</table></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class ="row" id="mars-hemispheres">
+    <div class = "col-lg-12">
+        <h3><center>Mars Hemispheres</center></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                        <img class="thumbnail" src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg" width="500px" height="500px" alt="Valles Marineris Hemisphere Enchanced"
+        
+            </div>
+            <div class="col-6">
+                
+                    <img class="thumbnail" src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg" width="500px" height="500px" alt="Cloudiness Chart"
+                
+            </div> 
+        </div>
+        <div class="col-6">
+            
+                <img class="thumbnail" src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg" width="500px" height="500px" alt="Cloudiness Chart"
+            
+        </div>   
+    </div>
+    <div class="col-6">
+        
+            <img class="thumbnail" src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg" width="500px" height="500px" alt="Cloudiness Chart"
+        
+    </div>     
+    
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    </body>
+</html>
+
