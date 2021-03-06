@@ -1,0 +1,2 @@
+-From the vizualizations We are able to see what the most popular stations are in descending order. Most popular in the month of June was W 20 st & 11Ave.
+-Am also able to tell the trends during the month of June. The numbers of riders increased throughout the moth of June, with June 29th having the most amount of riders.
